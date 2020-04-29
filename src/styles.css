@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
 * {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-size: 14px;
+  font-size: 16px;
+  color: #1f1f1f;
+
+  background-color: #30475e;
 }
 
 div {
@@ -13,27 +20,101 @@ div {
   margin: 20px;
 }
 
-div li {
+div h1 {
+  font-weight: 700;
+  font-size: 20px;
+  font-style: italic;
+
+  color: #fff;
+
   display: flex;
+  align-items: flex-start;
+
+  margin: 45px 0px 20px;
+}
+
+div li {
+  color: #7e7e7e;
+
+  display: flex;
+  justify-content: flex-end;
   align-items: center;
+
+  background-color: #d4e6f8;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+
+  padding: 15px 0px;
+  width: 355px;
+
+  transition: all ease-in-out 200ms;
+}
+
+div li:hover {
+  justify-content: flex-end;
+  align-items: center;
+
+  font-weight: 700;
+  font-style: italic;
+  color: #202020;
+  background-color: #fff;
+  width: 450px;
 }
 
 div li + li {
   margin-top: 15px;
 }
 
-button {
-  background: #7159c1;
-  color: #fff;
+div button {
+  background: #f7e0af;
+  color: #ff5b32;
   border: 0;
-  padding: 10px 15px;
+  padding: 15px 15px;
   cursor: pointer;
-  margin-top: 15px;
+  margin-top: 25px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
+
+  outline: none;
+
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.25);
+
+  text-decoration: none;
+
+  transition: all ease-in-out 180ms;
+}
+
+div button:hover {
+  font-style: italic;
+  text-decoration: none;
+  box-shadow: 3px 3px 10px rgba(68, 46, 22, 0.35);
+
+  padding: 15px 15px 15px 80px;
 }
 
 div li button {
-  margin: 0 15px;
-  background: #ca4949;
+  font-size: 14px;
+
+  margin: 0 15px 0 25px;
+  background: #e76070;
+
+  padding: 10px 15px;
+
+  color: #e7e7e7;
+
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.25);
+
+  transition: all ease-in-out 180ms;
+}
+
+div li button:hover {
+  font-style: normal;
+  color: #fff;
+  background: #f33046;
+
+  box-shadow: 3px 3px 10px rgba(255, 0, 0, 0.45);
+
+  padding: 10px 15px;
 }
