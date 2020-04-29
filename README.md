@@ -16,8 +16,8 @@ Desafio aplicado no Bootcamp GoStack da Rocketseat
 - [Tecnologia utilizada](#-tecnologia-utilizada)
 - [Objetivos](#-objetivos)
 - [Testes de Validação](#-testes-de-validação)
-- [Para clonar, acessar e executar o projeto](#-para-clonar-acessar-e-executar-o-projeto)
-- [Para executar os testes](#-para-executar-os-teste)
+- [Para clonar e executar o projeto](#-para-clonar-e-executar-o-projeto)
+- [Para executar os testes](#-para-executar-os-testes)
 - [Importante](#-importante)
 
 
@@ -64,7 +64,7 @@ Para que esse teste passe, a aplicação deve permitir que ao clicar no botão d
 
 ---
 
-## ⚙ Para clonar e acessar e executar o projeto
+## ⚙ Para clonar e executar o projeto
 
 ```bash
   # clonar o projeto
